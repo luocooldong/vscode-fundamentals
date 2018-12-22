@@ -8,6 +8,7 @@ function divideCartWork(items, allPlainCartItems) {
   let toUpdate = null;
   let toRemove = null;
 
+  debugger;
   let groceryIdsInDbCart = allPlainCartItems.map(x => x.groceryItemId);
 
   let itemIds = items.map(i => i.groceryItem.id);

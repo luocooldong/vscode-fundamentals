@@ -12,6 +12,7 @@ function dbPath(name) {
 
 async function openDb(name) {
   let databasePath = dbPath(name);
+  debugger
 
   return new Promise((resolve, reject) => {
     fs.exists(databasePath, (itExists) => {

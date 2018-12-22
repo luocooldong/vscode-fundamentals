@@ -36,7 +36,7 @@ function AppHeader(props: any) {
             </span>
           <a className='appbar-icon cart-toggle mui--pull-right' onClick={doRightToggle}>
             {cartIcon}
-            {numItemsInCart > 0 ? <span className='cart-item-count-badge'>{numItemsInCart}</span> : ''}
+            {numItemsInCart > 0 ? <span className='cart-item-count-badge' style={{border: '1px solid'}} >{numItemsInCart}</span> : ''}
           </a>
         </div>
       </Appbar>
